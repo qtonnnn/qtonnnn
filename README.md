@@ -62,7 +62,6 @@ Tinggal di Bangkalan. Sekarang lagi ngembangin project pribadi & tugas kuliah. S
   </picture>
 </div>
 
-<sub align="center">⏳ Snake auto-regenerates daily via GitHub Actions. Tunggu sebentar kalo belum muncul.</sub>
 
 ---
 
