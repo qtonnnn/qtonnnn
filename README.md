@@ -2,9 +2,29 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=9B59B6&center=true&vCenter=true&multiline=true&width=700&lines=Selamat+datang+di+profil+GitHub+saya!;Saya+suka+bikin+web+%F0%9F%92%BB+%2F+ngulik+projek+PHP+%2F+Laravel+%2F+Next.js)](https://git.io/typing-svg)
+🎮 **Play my mini games below while you're here!** 👇
 
 </div>
+
+## 🏓 Pong Game
+
+<div align="center">
+  <a href="https://github.com/qtonnnn/qtonnnn/blob/main/.github/assets/pong.html" target="_blank">
+    <img src="https://raw.githubusercontent.com/qtonnnn/qtonnnn/main/.github/assets/pong.svg" alt="Pong Game" width="600" />
+  </a>
+</div>
+
+<p align="center"><sub>👆 Click image to play. Use mouse to control the paddle.</sub></p>
+
+## 🐱 Pet Companion
+
+<div align="center">
+  <a href="https://github.com/qtonnnn/qtonnnn/blob/main/.github/assets/pet.html" target="_blank">
+    <img src="https://raw.githubusercontent.com/qtonnnn/qtonnnn/main/.github/assets/pet.svg" alt="Pet Companion" width="600" />
+  </a>
+</div>
+
+<p align="center"><sub>👆 Click image to interact with the pet.</sub></p>
 
 ---
 

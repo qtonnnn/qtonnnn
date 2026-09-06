@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<title>Pet Companion</title>
+<style>
+  body { margin:0; background:linear-gradient(180deg,#0d1117 0%,#1a1325 100%); min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; font-family:system-ui; color:#c9d1d9; overflow:hidden; }
+  h1 { color:#9b59b6; }
+  .stage { position:relative; width:600px; height:300px; background:linear-gradient(180deg,#2a1f3d 0%,#1a1325 100%); border:2px solid #9b59b6; border-radius:12px; box-shadow:0 0 30px #9b59b6aa; overflow:hidden; cursor:pointer; }
+  .ground { position:absolute; bottom:0; left:0; right:0; height:40px; background:#3d2952; }
+  .pet { position:absolute; bottom:40px; left:50px; font-size:60px; transition:transform 0.2s; user-select:none; }
+  .pet.walking { animation:walk 0.4s infinite alternate; }
+  @keyframes walk { from{transform:translateY(0)} to{transform:translateY(-8px)} }
+  .food { position:absolute; bottom:50px; font-size:24px; }
+  .heart { position:absolute; font-size:18px; color:#ff6b9d; pointer-events:none; animation:float 1.5s forwards; }
+  @keyframes float { 0%{opacity:1;transform:translateY(0)} 100%{opacity:0;transform:translateY(-60px)} }
+  .info { margin-top:12px; font-size:13px; color:#8e44ad; }
+</style>
+</head>
+<body>
+  <h1>🐱 Pixel Pet</h1>
+  <div class="stage" id="stage">
+    <div class="pet" id="pet">🐱</div>
+    <div class="ground"></div>
+  </div>
+  <div class="info">Klik di mana aja di arena — pet jalan ke sana. Klik pet = kasih sayang.</div>
+<script>
+const stage=document.getElementById('stage'),pet=document.getElementById('pet');
+let pos=50,target=50;
+stage.addEventListener('click',e=>{
+  if(e.target===pet){spawnHeart();return;}
+  const r=stage.getBoundingClientRect();
+  target=Math.max(0,Math.min(r.width-60,e.clientX-r.left-30));
+  pet.classList.add('walking');
+  setTimeout(()=>pet.classList.remove('walking'),800);
+});
+pet.addEventListener('click',e=>{e.stopPropagation();spawnHeart();});
+function spawnHeart(){
+  const h=document.createElement('div');
+  h.className='heart';h.textContent='❤️';
+  h.style.left=(pos+10)+'px';h.style.bottom='110px';
+  stage.appendChild(h);setTimeout(()=>h.remove(),1500);
+}
+setInterval(()=>{
+  if(Math.abs(target-pos)>2){
+    pos+=target>pos?3:-3;
+    pet.style.left=pos+'px';
+    pet.style.transform=pos<target?'scaleX(1)':'scaleX(-1)';
+  }
+},16);
+</script>
+</body>
+</html>

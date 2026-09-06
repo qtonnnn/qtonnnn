@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<title>Pong Game</title>
+<style>
+  body { margin:0; background:#0d1117; color:#c9d1d9; font-family:system-ui; display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:100vh; }
+  canvas { background:#000; border:2px solid #9b59b6; box-shadow:0 0 30px #9b59b6aa; }
+  .info { color:#8e44ad; margin-top:10px; font-size:14px; }
+  h1 { color:#9b59b6; }
+</style>
+</head>
+<body>
+  <h1>🏓 Pong</h1>
+  <canvas id="pong" width="600" height="400"></canvas>
+  <div class="info">Mouse untuk gerakin paddle. Skor pertama sampe 7 menang.</div>
+<script>
+const c=document.getElementById('pong'),x=c.getContext('2d');
+let py=c.height/2-40,cy=py,mx=0,sc=0,cc=0;
+let bx=c.width/2,by=c.height/2,bvx=4*(-1)**Math.round(Math.random()),bvy=3*(-1)**Math.round(Math.random());
+c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect();py=e.clientY-r.top-40;});
+function draw(){
+  x.fillStyle='#000';x.fillRect(0,0,c.width,c.height);
+  // paddles
+  x.fillStyle='#9b59b6';x.fillRect(10,py,8,80);
+  x.fillStyle='#8e44ad';x.fillRect(c.width-18,cy,8,80);
+  // ball
+  x.fillStyle='#fff';x.fillRect(bx,by,10,10);
+  // net
+  x.fillStyle='#444';for(let i=0;i<c.height;i+=20)x.fillRect(c.width/2-1,i,2,10);
+  // score
+  x.font='20px monospace';x.fillStyle='#9b59b6';x.fillText('Player: '+sc,30,30);
+  x.fillStyle='#8e44ad';x.fillText('CPU: '+cc,c.width-100,30);
+}
+function step(){
+  if(cy+40<by+5)cy+=3;else if(cy+40>by+5)cy-=3;
+  bx+=bvx;by+=bvy;
+  if(by<0||by>c.height-10)bvy*=-1;
+  if(bx<18&&by>py&&by<py+80)bvx*=-1.05;
+  if(bx>c.width-28&&by>cy&&by<cy+80)bvx*=-1.05;
+  if(bx<0){cc++;bx=c.width/2;by=c.height/2;bvx=4;if(sc>=7||cc>=7){sc=0;cc=0;}}
+  if(bx>c.width){sc++;bx=c.width/2;by=c.height/2;bvx=-4;if(sc>=7||cc>=7){sc=0;cc=0;}}
+}
+setInterval(()=>{step();draw();},16);
+</script>
+</body>
+</html>

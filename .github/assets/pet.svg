@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a1f3d"/>
+      <stop offset="100%" stop-color="#1a1325"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg)"/>
+  <text x="300" y="40" text-anchor="middle" fill="#9b59b6" font-size="20" font-family="system-ui">🐱 Pet</text>
+  <ellipse cx="120" cy="220" rx="22" ry="16" fill="#f4a261"/>
+  <circle cx="113" cy="216" r="2.5" fill="#000"/>
+  <circle cx="127" cy="216" r="2.5" fill="#000"/>
+  <path d="M115,222 Q120,225 125,222" stroke="#000" stroke-width="1.5" fill="none"/>
+  <path d="M105,205 L100,195 L108,210 Z" fill="#f4a261"/>
+  <path d="M135,205 L140,195 L132,210 Z" fill="#f4a261"/>
+  <ellipse cx="150" cy="240" rx="6" ry="3" fill="#264653"/>
+  <ellipse cx="155" cy="250" rx="5" ry="3" fill="#264653"/>
+  <text x="170" y="245" font-size="20" fill="#e76f51">🍗</text>
+  <text x="220" y="230" font-size="20" fill="#ff6b9d">❤️</text>
+  <text x="400" y="150" font-size="40" fill="#9b59b6" opacity="0.3">~</text>
+  <text x="450" y="170" font-size="40" fill="#8e44ad" opacity="0.3">~</text>
+  <text x="500" y="190" font-size="40" fill="#9b59b6" opacity="0.3">~</text>
+  <rect x="0" y="260" width="600" height="40" fill="#3d2952"/>
+  <text x="300" y="285" text-anchor="middle" fill="#666" font-size="12" font-family="system-ui">click to play →</text>
+</svg>
