@@ -76,7 +76,7 @@ Tinggal di Bangkalan. Sekarang lagi ngembangin project pribadi & tugas kuliah. S
 
 </div>
 
-> 🔗 **Portal semua project:** [tonns.xo.je](https://tonns.xo.je/)
+> 🔗 **Portal projectku:** [tonns.xo.je](https://tonns.xo.je/)
 
 ---
 
