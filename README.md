@@ -1,42 +1,15 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=9b59b6%2C8e44ad%2C6c3483&height=220&section=header&text=Halo%2C%20saya%20Toni&fontSize=42&fontColor=ffffff&desc=Mahasiswa%20Sistem%20Informasi%20%E2%80%A2%20Universitas%20Trunojoyo%20Madura&descSize=16&descAlignY=58&fontAlignY=35" width="100%" />
 
-<div align="center">
-
-🎮 **Play my mini games below while you're here!** 👇
-
-</div>
-
-## 🏓 Pong Game
-
-<div align="center">
-  <a href="https://github.com/qtonnnn/qtonnnn/blob/main/.github/assets/pong.html" target="_blank">
-    <img src="https://raw.githubusercontent.com/qtonnnn/qtonnnn/main/.github/assets/pong.svg" alt="Pong Game" width="600" />
-  </a>
-</div>
-
-<p align="center"><sub>👆 Click image to play. Use mouse to control the paddle.</sub></p>
-
-## 🐱 Pet Companion
-
-<div align="center">
-  <a href="https://github.com/qtonnnn/qtonnnn/blob/main/.github/assets/pet.html" target="_blank">
-    <img src="https://raw.githubusercontent.com/qtonnnn/qtonnnn/main/.github/assets/pet.svg" alt="Pet Companion" width="600" />
-  </a>
-</div>
-
-<p align="center"><sub>👆 Click image to interact with the pet.</sub></p>
-
 ---
 
 ## 🧑‍💻 Tentang Saya
 
-Halo, saya **Muhammad Fatoni** — biasa dipanggil **Toni**. Mahasiswa aktif Program Studi **Sistem Informasi**, Fakultas Teknik, **Universitas Trunojoyo Madura**. Suka bikin web (full stack) dan ngoprek project iseng yang gak jelas juntrungannya.
+Halo, saya Toni. Mahasiswa Sistem Informasi di Universitas Trunojoyo Madura. Ngoprek web buat tugas, iseng, dan kadang main-main.
 
-- 🔭 Sekarang lagi ngembangin project **SmashArena** (booking lapangan & turnamen GOR)
-- 🌱 Lagi belajar-belar **Laravel 11**, **Next.js 15**, dan **Flutter**
-- 💬 Tanya gue soal **PHP, MySQL, CodeIgniter, Laravel, React, atau apa aja**
-- 📫 Hubungi gue lewat [Instagram](https://www.instagram.com/tonie.xhale/) atau [Email](mailto:qtonnnn@gmail.com)
-- ⚡ Fun fact: terminal gue pake **Bungur HD** 🐧💜
+Tinggal di Bangkalan. Sekarang lagi ngembangin project pribadi & tugas kuliah. Suka bantuin temen kalo ada yg error code-nya.
+
+- 📫 Hubungi via [Email](mailto:qtonnnn@gmail.com) atau [Instagram](https://www.instagram.com/tonie.xhale/)
+- ⚡ Terminal saya pake custom prompt sendiri — Bungur HD 🐧
 
 ---
 
@@ -79,14 +52,6 @@ Halo, saya **Muhammad Fatoni** — biasa dipanggil **Toni**. Mahasiswa aktif Pro
 
 ---
 
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=qtonnnn&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7" alt="GitHub Trophies" />
-</div>
-
----
-
 ## 🐍 Contribution Snake
 
 <div align="center">
@@ -105,10 +70,10 @@ Halo, saya **Muhammad Fatoni** — biasa dipanggil **Toni**. Mahasiswa aktif Pro
 
 <div align="center">
 
-| 🏸 [SmashArena](https://github.com/qtonnnn/smasharena) | 📝 [Blogku](https://github.com/qtonnnn/blogku) |
-|:---:|:---:|
-| Platform booking lapangan & turnamen GOR. PHP, MySQL, CI4. | Blog pribadi catatan harian. HTML & CSS murni. |
-| **[Lihat repo →](https://github.com/qtonnnn/smasharena)** | **[Lihat online →](https://qtonnnn.github.io/blogku/)** |
+| 📝 [Blogku](https://github.com/qtonnnn/blogku) |
+|:---:|
+| Blog catatan harian. HTML & CSS murni. |
+| **[Lihat online →](https://qtonnnn.github.io/blogku/)** |
 
 </div>
 
