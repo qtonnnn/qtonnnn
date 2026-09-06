@@ -47,14 +47,14 @@ Halo, saya **Muhammad Fatoni** — biasa dipanggil **Toni**. Mahasiswa aktif Pro
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=qtonnnn&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=9b59b6&icon_color=8e44ad&text_color=c9d1d9&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=qtonnnn&theme=tokyonight&hide_border=true&background=0d1117&ring=9b59b6&fire=8e44ad&currStreakLabel=c39bd3" />
+  <img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=qtonnnn&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=9b59b6&icon_color=8e44ad&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-streak-stats-eight-theta.vercel.app/?user=qtonnnn&theme=tokyonight&hide_border=true&background=0d1117&ring=9b59b6&fire=8e44ad&currStreakLabel=c39bd3" alt="Streak Stats" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qtonnnn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=9b59b6&text_color=c9d1d9&langs_count=8" />
+  <img height="200em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=qtonnnn&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=9b59b6&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
 </div>
 
 ---
@@ -62,7 +62,7 @@ Halo, saya **Muhammad Fatoni** — biasa dipanggil **Toni**. Mahasiswa aktif Pro
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=qtonnnn&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=qtonnnn&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&column=7" alt="GitHub Trophies" />
 </div>
 
 ---
