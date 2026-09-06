@@ -4,7 +4,7 @@
 
 ## 🧑‍💻 Tentang Saya
 
-Halo, saya Toni. Mahasiswa Sistem Informasi di Universitas Trunojoyo Madura. Ngoprek web buat tugas, iseng, dan kadang main-main.
+Halloo, nkok Toni. Mahasiswa Sistem Informasi di Universitas Trunojoyo Madura. Nganu web buat tugas, iseng, dan kadang main-main.
 
 Tinggal di Bangkalan. Sekarang lagi ngembangin project pribadi & tugas kuliah. Suka bantuin temen kalo ada yg error code-nya.
 
@@ -22,12 +22,12 @@ Tinggal di Bangkalan. Sekarang lagi ngembangin project pribadi & tugas kuliah. S
 
 ### ⚙️ Backend
 <p>
-  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,python,java,cpp" />
+  <img src="https://skillicons.dev/icons?i=php,laravel,nodejs,python,java" />
 </p>
 
 ### 🗄️ Database & Tools
 <p>
-  <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb,redis,git,github,vscode,figma,postman,docker" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgresql,git,github,vscode,figma,postman,docker" />
 </p>
 
 ### 🐧 OS
