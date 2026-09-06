@@ -13,8 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -23,13 +21,14 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg
 
-      - name: Commit snake to output branch
+      - name: Push snake to output branch
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout output 2>/dev/null || git checkout -b output
-          cp -f dist/github-contribution-grid-snake.svg .
-          cp -f dist/github-contribution-grid-snake-dark.svg .
+          set -e
+          git clone --depth 1 --branch main https://x-access-token:${GITHUB_TOKEN}@github.com/qtonnnn/qtonnnn.git repo
+          cd repo
+          git checkout -B output origin/output 2>/dev/null || git checkout -b output
+          cp -f ../dist/github-contribution-grid-snake.svg .
+          cp -f ../dist/github-contribution-grid-snake-dark.svg .
           git add github-contribution-grid-snake.svg github-contribution-grid-snake-dark.svg
-          git commit -m "chore: regenerate snake SVG" || echo "nothing to commit"
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "chore: regenerate snake SVG" || echo "no changes"
           git push origin output
