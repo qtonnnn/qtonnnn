@@ -4,7 +4,7 @@
 
 ## 🧑‍💻 Tentang Saya
 
-Halloo, nkok Toni. Mahasiswa Sistem Informasi di Universitas Trunojoyo Madura. Nganu web buat tugas, iseng, dan kadang main-main.
+Halloo, nkok Toni. Mahasiswa Sistem Informasi Universitas Trunojoyo Madura. Nganu web buat tugas, iseng, dan kadang main-main.
 
 Tinggal di Bangkalan. Sekarang lagi ngembangin project pribadi & tugas kuliah. Suka bantuin temen kalo ada yg error code-nya.
 
