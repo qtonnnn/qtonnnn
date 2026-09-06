@@ -70,10 +70,10 @@ Tinggal di Bangkalan. Sekarang lagi ngembangin project pribadi & tugas kuliah. S
 
 <div align="center">
 
-| 📝 [Blogku](https://github.com/qtonnnn/blogku) |
-|:---:|
-| Blog catatan harian. HTML & CSS murni. |
-| **[Lihat online →](https://qtonnnn.github.io/blogku/)** |
+| 📝 [Blogku](https://github.com/qtonnnn/blogku) | 🕌 [Hadrahin](https://github.com/qtonnnn/hadrahin) |
+|:---:|:---:|
+| Blog catatan harian. HTML & CSS murni. | Website & dashboard Grup Seni Hadrah. PHP + MySQL. |
+| **[Lihat online →](https://qtonnnn.github.io/blogku/)** | **[Lihat repo →](https://github.com/qtonnnn/hadrahin)** |
 
 </div>
 
