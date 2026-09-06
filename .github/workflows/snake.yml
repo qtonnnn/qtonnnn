@@ -2,20 +2,17 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # jalan tiap jam 7 pagi WIB
-  workflow_dispatch:        # bisa dijalanin manual juga
-  push:
-    branches: [main]
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 5
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -23,12 +20,16 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg
-            dist/github-contribution-grid-snake-stats.svg
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push snake to output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git clone "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/qtonnnn/qtonnnn.git" repo
+          cd repo
+          git checkout output || git checkout -b output
+          mkdir -p .
+          cp -r ../dist/* .
+          git add .
+          git commit -m "chore: regenerate snake SVG" || echo "nothing to commit"
+          git push origin output
