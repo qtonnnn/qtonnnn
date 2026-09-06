@@ -69,7 +69,7 @@ Tinggal di Bangkalan. Sekarang lagi ngembangin project pribadi & tugas kuliah. S
 
 <div align="center">
 
-| 🔧 [Bengkel](https://tonns.xo.je/?i=1) | 🕌 [Hadrahin](https://tonns.xo.je/?i=1) | 📝 [Blogku](https://github.com/qtonnnn/blogku) |
+| 🔧 [Bengkel](https://tonns.xo.je/bengkelku/) | 🕌 [Hadrahin](https://tonns.xo.je/hadrahin) | 📝 [Blogku](https://github.com/qtonnnn/blogku) |
 |:---:|:---:|:---:|
 | Sistem manajemen bengkel. PHP + MySQL. | Website & dashboard Grup Seni Hadrah. PHP + MySQL. | Blog catatan harian. HTML & CSS murni. |
 | **[Buka →](https://tonns.xo.je/?i=1)** | **[Buka →](https://tonns.xo.je/?i=1)** | **[Buka →](https://qtonnnn.github.io/blogku/)** |
